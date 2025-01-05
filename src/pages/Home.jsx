@@ -1,12 +1,12 @@
 import React from 'react';
-import Hero from '../components/Hero';
+import Hero from '../components/hero';
 import Body from '../components/Body';
 import Product from '../components/products';
-import Feature from '../Components/features';
-import Cta from '../Components/cta';
+import Feature from '../components/features';
+import Cta from '../components/cta';
 import Carousel from '../components/carousel';
 import Categories from '../components/categories';
-import Contact from '../Components/contact';
+import Contact from '../components/contact';
 
 const Home = () => {
   return (
