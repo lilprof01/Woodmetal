@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import { CartProvider } from './cartcontext';
 import ScrollToTop from './scroll';
 import Header from './components/header';
-import Footer from './Components/footer';
+import Footer from './components/footer';
 import TopBtn from './components/Topbtn';
 import NewPage from './pages/NewPage';
 import Home from './pages/Home';
