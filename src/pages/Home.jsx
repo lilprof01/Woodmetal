@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from '../components/hero';
-import Body from '../components/Body';
+import Body from '../components/body';
 import Product from '../components/products';
 import Feature from '../components/features';
 import Cta from '../components/cta';
