@@ -3,12 +3,15 @@ import chair from '../assets/chair.png';
 import Products from "../Data/Products";
 import Product from "../components/products";
 import { useCart } from '../cartcontext';
+import { CartProvider } from "../cartcontext";
 
 const HeaderComponent = (props) => {
   return (
     <div className="text-xl font-medium border border-[#80808057] p-4 hidden sm:block">{props.text}</div>
   )
 };
+
+// for pushs sake
 
 const WishlistItem = (props) => {
   const { addToCart, addToWishlist } = useCart();

@@ -22,7 +22,7 @@ function Hero() {
   const heroUrl = 'https://res.cloudinary.com/dzvqnpdqo/image/upload/q_auto,f_auto/v1735907130/heroimg1_lt2tfk.jpg';
 
   return (
-    <div className="hero">
+    <div id='hero' className="hero">
       <div className="carousel relative">
         <div
           style={{

@@ -19,7 +19,7 @@ function Categories() {
             <h2 className="text-3xl font-bold">Comfy seater</h2>
             <img className="hover:cursor-pointer hover:scale-125 ease-in duration-300" src={chair} />
           </div>
-          <div className="grid sm:grid-cols-2 grid-rows-2 sm:gap-4">
+          <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-rows-2 sm:gap-4">
             <Catcard text='Innovative furnitures' title='Comfy seater' img={chair5} />
             
             <Catcard text='Innovative furnitures' title='Comfy seater' img={chair3} />
