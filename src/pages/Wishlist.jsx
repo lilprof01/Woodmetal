@@ -11,7 +11,7 @@ const HeaderComponent = (props) => {
   )
 };
 
-// for pushs sake
+// for pushs sake.
 
 const WishlistItem = (props) => {
   const { addToCart, addToWishlist } = useCart();
